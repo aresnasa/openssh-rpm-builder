@@ -1,11 +1,11 @@
 # openssh-upgrade
 
 #### 介绍
-openssh-upgrade-8.0sp1
+openssh-upgrade-8.X
 
 #### 软件架构
 适用于CentOS-7.X
-升级OpenSSH-8.0sp1
+升级OpenSSH-8.X
 
 #### 安装教程
 
@@ -15,7 +15,7 @@ openssh-upgrade-8.0sp1
 
 1.  packages 依赖rpm包
 2.  ssh-copy-id建立ssh互信拷贝ssh-key脚本
-3.  upgrade_ssh.ssh升级OpenSSH-8.0sp1脚本
+3.  upgrade_ssh.ssh升级OpenSSH-8.3p1脚本
 
 
 #### 码云特技

@@ -44,7 +44,9 @@ setenforce 0
 cp ${BASE_PATH}/ssh-copy-id /usr/bin/
 
 chmod 600 /etc/ssh/*
+cp -f $SSH_BAK/pam.d/sshd /etc/pam.d/
 systemctl restart sshd
+
 else
     echo 'please check /root/openssh-bak'
 fi
